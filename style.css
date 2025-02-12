@@ -258,7 +258,7 @@ footer nav ul li a:hover {
 /* Стили для кнопки */
 #toggleMusic {
     position: fixed;
-    bottom: 20px;
+    top: 20 0px;
     right: 20px;
     background-color: #ff6b6b; /* Розовый цвет */
     color: white;
