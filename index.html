@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для Светы</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="header-content">
+            <h1>Со святым Валентином тебя поздравляю</h1>
+            <h5>Сайтик тебе ^^</h1>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="img/icons8-valentines-96 (1).png"></a></li>
+                    <li><a href="#"><img src="img/icons8-valentines-96 (1).png"></a></li>
+                    <li><a href="#"><img src="img/icons8-valentines-96 (1).png"></a></li>
+                    <li><a href="#"><img src="img/icons8-valentines-96 (1).png"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <section class="MainSection image-background">
+
+    </section>
+    <div>
+        <div class="gift-container">
+            <button id="giftButton" class="gift">
+                <img src="img/free-icon-gift-13381304.png" alt="Подарок">
+            </button>
+        </div>
+
+        <!-- Сообщение после взрыва -->
+        <div id="message" class="hidden-message">
+            <h1>Ты молодец!</h1>
+        </div>
+    </div>
+    <div class="wordsdiv">
+        <h1>Люблю тебя,</h1>
+        <h1 id="name">Света</h1>
+        <button id="changeButton">
+            Клик
+        </button>
+    </div>
+
+    <section class="gallery">
+        <div class="gallery-grid">
+            <img src="img/photo_2025-02-10_01-24-11.jpg" alt="Фото 2">
+            <img src="img/rSvzFnhyGX0.jpg" alt="Фото 3">
+            <img src="img/photo_2025-02-03_22-21-45.jpg" alt="Фото 4">
+            <img src="img/photo_2025-02-03_22-22-04.jpg" alt="Фото 4">
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery-grid">
+            <img src="img/3fa287c717ff7a7102e6d872c68b5bda.jpg">
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery-grid">
+            <img src="img/photo_2025-02-12_20-18-31.jpg">
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery-grid">
+            <img src="img/Снимок экрана 2025-02-05 235528.png">
+        </div>
+    </section>
+    <section style="display: flex; flex-direction: column; ">
+        <div class="square-container">
+            <button id="expandButton">Квадрат</button>
+            <div id="square" class="square"></div>
+        </div>
+        <section class="gif-section">
+            <img src="music/ezgif-83b6878e468538.gif" alt="Анимированная картинка" class="gif-image">
+        </section>
+    </section>
+    <div class="heart"></div>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="music/DEAD_BLONDE_-_Bespridannica_72938943.mp3" type="audio/mp3">
+    </audio>
+    <!-- Кнопка для управления музыкой -->
+    <button id="toggleMusic">Музыка</button>
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Сайт для Светы Шевцовой. Все права защищены.</p>
+            <p>ООО "КИРИЛЛ .INC".</p>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
